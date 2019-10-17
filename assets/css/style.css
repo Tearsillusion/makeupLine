@@ -5089,7 +5089,7 @@ aside.left form .form-input span.form-button {
 }
 
 .content-section .text {
-	padding: 50px;
+	margin-bottom: 30px;
 }
 
 @media screen and (max-width: 991px) {
@@ -7983,6 +7983,7 @@ ul.timeline li:nth-child(odd):hover .title {
 	z-index: 1999;
 	background: #F6F6F6;
 	text-align: center;
+	display: none!important;
 }
 
 #myloader .loader {
@@ -8644,4 +8645,7 @@ button.mfp-close:hover {
 .margin-bottom-small,.margin-bottom-extrasmall
 ,.margin-null,.margin-bottom-extrasmall a{
 	color: black!important;
+}
+#page-header{
+	background-position: right;
 }
