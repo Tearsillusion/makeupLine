@@ -1406,10 +1406,10 @@ img[class~="center"] {
 	padding-bottom: 0 !important;
 }
 
-.padding-leftright-null {
+/* .padding-leftright-null {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
-}
+} */
 
 .padding-top-null {
 	padding-top: 0 !important;
@@ -5027,7 +5027,7 @@ aside.left form .form-input span.form-button {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-image: url(../img/page-header.png);
+	/* background-image: url(../img/page-header.png); */
 	background-repeat: no-repeat;
 	background-position: right top;
 	opacity: .6;
@@ -8544,7 +8544,7 @@ button.mfp-close:hover {
 		margin-top: -60px;
 	}
 	#carousel-example-generic3 .thumbnail img{
-		margin-top: -80px;
+		margin-top: -32px;
 	}
 	.carousel-indicators{
 		bottom: -5px;
@@ -8648,4 +8648,7 @@ button.mfp-close:hover {
 }
 #page-header{
 	background-position: right;
+}
+.about-img img{
+	width: 60%;
 }
